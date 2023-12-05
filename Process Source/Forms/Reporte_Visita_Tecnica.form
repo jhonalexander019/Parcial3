@@ -1,0 +1,90 @@
+{
+  "components": [
+    {
+      "text": "# Reporte Visita Tecnica",
+      "type": "text",
+      "layout": {
+        "row": "Row_1m86htl",
+        "columns": null
+      },
+      "id": "Field_0gvpkb5"
+    },
+    {
+      "label": "Fue viable la Solucion?",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_1m86htl",
+        "columns": null
+      },
+      "id": "Field_020mwk1",
+      "key": "Viable",
+      "disabled": true,
+      "defaultValue": false
+    },
+    {
+      "values": [
+        {
+          "label": "Manual",
+          "value": "Manual"
+        },
+        {
+          "label": "Especializada",
+          "value": "Especializada"
+        },
+        {
+          "label": "Sin Intervencion",
+          "value": "SinIntervencion"
+        },
+        {
+          "label": "Sin Solucion",
+          "value": "SinSolucion"
+        }
+      ],
+      "label": "Tipo de Solucion",
+      "type": "select",
+      "layout": {
+        "row": "Row_0dlyftx",
+        "columns": null
+      },
+      "id": "Field_1d49wo1",
+      "key": "Tipo_Solucion",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Cobro Extra",
+      "type": "number",
+      "layout": {
+        "row": "Row_0nn08aq",
+        "columns": null
+      },
+      "id": "Field_0w9plpa",
+      "key": "CobroExtra",
+      "validate": {
+        "required": true,
+        "min": 0
+      },
+      "defaultValue": 0
+    },
+    {
+      "label": "Describa lo sucedido*",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_1kvgc8w",
+        "columns": null
+      },
+      "id": "Field_0s1ub8w",
+      "key": "Descripcion"
+    }
+  ],
+  "type": "default",
+  "id": "Reporte_Visita_Tecnica",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.10.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 8
+}

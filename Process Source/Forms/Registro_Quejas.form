@@ -1,0 +1,92 @@
+{
+  "components": [
+    {
+      "text": "# Registro de Quejas",
+      "type": "text",
+      "layout": {
+        "row": "Row_0z2s595",
+        "columns": null
+      },
+      "id": "Field_0fouelf"
+    },
+    {
+      "label": "Ingrese su nombre completo",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_07a3m68",
+        "columns": null
+      },
+      "id": "Field_0xq7uwd",
+      "key": "Nombre",
+      "description": "No colocar numeros*",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Cedula",
+      "type": "number",
+      "layout": {
+        "row": null,
+        "columns": null
+      },
+      "id": "Field_1vuruub",
+      "key": "Cedula",
+      "description": "Ingrese su cedula",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Digite un numero celular",
+      "type": "number",
+      "layout": {
+        "row": "Row_0x5pepc",
+        "columns": null
+      },
+      "id": "Field_1aa9b3q",
+      "key": "Telefono",
+      "description": "No colocar letras*",
+      "validate": {
+        "required": true
+      },
+      "properties": {}
+    },
+    {
+      "label": "Ingrese su direccion de residencia",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1l9l2o0",
+        "columns": null
+      },
+      "id": "Field_1f59udv",
+      "key": "Domicilio",
+      "validate": {
+        "required": true
+      },
+      "description": "Ejem: Cra 45 #56-32  San Benito"
+    },
+    {
+      "label": "Ingrese su queja",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_1n35fd0",
+        "columns": null
+      },
+      "id": "Field_1dysieq",
+      "key": "Queja",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Registro_Quejas",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.17.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 12
+}

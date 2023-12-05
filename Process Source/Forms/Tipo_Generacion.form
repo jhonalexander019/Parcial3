@@ -1,0 +1,43 @@
+{
+  "components": [
+    {
+      "text": "# Tipo de Generacion de Codigo Especial para la DIAN",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_0cl2q9z",
+        "columns": null
+      },
+      "id": "Field_19sze52"
+    },
+    {
+      "values": [
+        {
+          "label": "Worker",
+          "value": "Worker"
+        },
+        {
+          "label": "Asesor",
+          "value": "Asesor"
+        }
+      ],
+      "label": "Seleccione el tipo de generacion para la queja del cliente",
+      "type": "select",
+      "layout": {
+        "row": "Row_0sefw5p",
+        "columns": null
+      },
+      "id": "Field_0sb0pzl",
+      "key": "tipo_generacion"
+    }
+  ],
+  "type": "default",
+  "id": "Tipo_Generacion",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.17.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.20.0",
+  "schemaVersion": 12
+}

@@ -1,0 +1,82 @@
+{
+  "components": [
+    {
+      "label": "Nombre completo",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0tyt8sh",
+        "columns": null
+      },
+      "id": "Field_17qqynv",
+      "key": "Nombre",
+      "disabled": true
+    },
+    {
+      "label": "Cedula",
+      "type": "number",
+      "layout": {
+        "row": "Row_0178ypz",
+        "columns": null
+      },
+      "id": "Field_0rn41w0",
+      "key": "Cedula",
+      "description": "la cedula ingresa es",
+      "disabled": true
+    },
+    {
+      "label": "Numero celular",
+      "type": "number",
+      "layout": {
+        "row": "Row_1223c4e",
+        "columns": null
+      },
+      "id": "Field_01c5lyj",
+      "key": "Telefono",
+      "disabled": true
+    },
+    {
+      "label": "Direccion de residencia",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_063fxy1",
+        "columns": null
+      },
+      "id": "Field_03zfemx",
+      "key": "Domicilio",
+      "disabled": true
+    },
+    {
+      "label": "Queja",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_1o81b6q",
+        "columns": null
+      },
+      "id": "Field_1subond",
+      "key": "Queja",
+      "disabled": true
+    },
+    {
+      "label": "La queja es valida?",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_1h0r7jk",
+        "columns": null
+      },
+      "id": "Field_028maha",
+      "key": "Valido",
+      "validate": {
+        "required": false
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Verificacion_Queja",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.17.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 12
+}

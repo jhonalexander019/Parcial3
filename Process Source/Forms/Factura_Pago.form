@@ -1,0 +1,93 @@
+{
+  "components": [
+    {
+      "text": "# Factura de Pago",
+      "type": "text",
+      "layout": {
+        "row": "Row_0a276ny",
+        "columns": null
+      },
+      "id": "Field_0cct674"
+    },
+    {
+      "label": "Nombre del cliente",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1fq2n8b",
+        "columns": null
+      },
+      "id": "Field_1y46uvd",
+      "key": "Nombre",
+      "disabled": true
+    },
+    {
+      "subtype": "date",
+      "dateLabel": "Fecha de visita tecnica",
+      "label": "Date time",
+      "type": "datetime",
+      "layout": {
+        "row": "Row_1p5hhrj",
+        "columns": null
+      },
+      "id": "Field_0cfr9zv",
+      "key": "Visita",
+      "disabled": true,
+      "disallowPassedDates": false
+    },
+    {
+      "label": "Direccion del domicilio",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_11jnt6c",
+        "columns": null
+      },
+      "id": "Field_1ueynvs",
+      "key": "Domicilio",
+      "disabled": true
+    },
+    {
+      "label": "Valor de Visita tecnica",
+      "type": "number",
+      "layout": {
+        "row": "Row_18z7s24",
+        "columns": null
+      },
+      "id": "Field_0xvlpun",
+      "key": "Valor",
+      "disabled": true,
+      "description": "Generado por la visita"
+    },
+    {
+      "label": "Cobro extra",
+      "type": "number",
+      "layout": {
+        "row": "Row_12d08fp",
+        "columns": null
+      },
+      "id": "Field_1lx5c3r",
+      "key": "CobroExtra",
+      "description": "Generado por la visita",
+      "disabled": true
+    },
+    {
+      "label": "Valor Total de la visita tecnica",
+      "type": "number",
+      "layout": {
+        "row": "Row_1ahnzim",
+        "columns": null
+      },
+      "id": "Field_14mxgyq",
+      "key": "ValorTotal",
+      "disabled": true
+    }
+  ],
+  "type": "default",
+  "id": "Factura_Pago",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.10.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 8
+}

@@ -1,0 +1,47 @@
+{
+  "components": [
+    {
+      "text": "# Forma de Pago",
+      "type": "text",
+      "layout": {
+        "row": "Row_1rnwf77",
+        "columns": null
+      },
+      "id": "Field_18v3267"
+    },
+    {
+      "values": [
+        {
+          "label": "Cuotas",
+          "value": "Cuotas"
+        },
+        {
+          "label": "Contado",
+          "value": "Contado"
+        }
+      ],
+      "label": "Escoja su forma de pago",
+      "type": "select",
+      "layout": {
+        "row": "Row_1goj6rm",
+        "columns": null
+      },
+      "id": "Field_1rf61pr",
+      "key": "TipoPago",
+      "description": "Esta cantidad se le adicionara al cobro mensual del servicio",
+      "validate": {
+        "required": true
+      },
+      "defaultValue": "Cuotas"
+    }
+  ],
+  "type": "default",
+  "id": "Forma_Pago",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.10.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 8
+}

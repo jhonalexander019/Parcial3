@@ -1,0 +1,72 @@
+{
+  "components": [
+    {
+      "text": "# Registro de Visita Tecnica",
+      "type": "text",
+      "layout": {
+        "row": "Row_1etso93",
+        "columns": null
+      },
+      "id": "Field_0wcfwqk"
+    },
+    {
+      "label": "Su nombre es: ",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0i7k1jg",
+        "columns": null
+      },
+      "id": "Field_1rod583",
+      "key": "Nombre",
+      "disabled": true
+    },
+    {
+      "label": "Su direccion es:",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0enxms4",
+        "columns": null
+      },
+      "id": "Field_1k2pbl3",
+      "key": "Domicilio",
+      "disabled": true
+    },
+    {
+      "label": "Numero Celular",
+      "type": "number",
+      "layout": {
+        "row": "Row_08awjoa",
+        "columns": null
+      },
+      "id": "Field_043il7o",
+      "key": "Telefono",
+      "disabled": true
+    },
+    {
+      "subtype": "date",
+      "dateLabel": "Fecha de Visita Tecnica",
+      "label": "Date time",
+      "type": "datetime",
+      "layout": {
+        "row": "Row_18axfe9",
+        "columns": null
+      },
+      "id": "Field_0sz7h1y",
+      "key": "Visita",
+      "description": "Sujeto a disponibilidad del tecnico*",
+      "validate": {
+        "required": true
+      },
+      "disallowPassedDates": false
+    }
+  ],
+  "type": "default",
+  "id": "Registro_Visita_Tecnica",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.10.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 8
+}

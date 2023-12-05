@@ -1,0 +1,33 @@
+{
+  "components": [
+    {
+      "text": "# Saldo Extra",
+      "type": "text",
+      "layout": {
+        "row": "Row_04qpwaw",
+        "columns": null
+      },
+      "id": "Field_0n302ec"
+    },
+    {
+      "label": "El saldo extra a pagar es",
+      "type": "number",
+      "layout": {
+        "row": "Row_1lb0jh5",
+        "columns": null
+      },
+      "id": "Field_07is8n5",
+      "key": "SaldoExtra",
+      "disabled": true
+    }
+  ],
+  "type": "default",
+  "id": "Saldo_Extra",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.10.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 8
+}
